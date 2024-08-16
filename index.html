@@ -544,7 +544,7 @@
             
             parallaxBgs.forEach(function(div)
             {
-                let scrollPosition = window.pageYOffset -640;
+                let scrollPosition = window.pageYOffset + 256;
                 div.style.backgroundPositionY = scrollPosition * 0.75 + 'px';
             });
         });
